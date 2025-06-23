@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNATIONAL SOFTWARE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="INTERNATIONAL SOFTWARE Logo">
+        <h1>INTERNATIONAL SOFTWARE</h1>
+        <button id="theme-toggle">Tema Değiştir</button>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2>Hizmetlerimiz</h2>
+            <ul>
+                <li>Web Tasarımı</li>
+                <li>Uygulama Geliştirme</li>
+                <li>Mobil Oyun</li>
+                <li>Masaüstü Oyun</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Kullanıcı Girişi</h2>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Şifre">
+            <button onclick="login()">Giriş Yap</button>
+            <button onclick="register()">Kayıt Ol</button>
+            <button onclick="logout()">Çıkış Yap</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 INTERNATIONAL SOFTWARE</p>
+    </footer>
+
+    <script type="module" src="firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
